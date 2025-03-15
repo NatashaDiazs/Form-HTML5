@@ -56,5 +56,9 @@ form {
 }
 
 .fname {
-    width: 50%;
+   width: 50%;
+}
+
+.sep {
+    display: flex;
 }
