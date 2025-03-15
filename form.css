@@ -1,0 +1,12 @@
+body {
+    margin: 0 auto;
+    justify-content: center;
+}
+form {
+    border: solid 2px gray;
+}
+
+.info {
+    display: flex;
+    
+}
