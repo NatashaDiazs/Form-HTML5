@@ -28,7 +28,7 @@ form {
     background-color: #f8d7da;
     border: solid 1px rgba(192, 82, 82, 0.1);
     color: rgb(90, 4, 4);
-    margin: 20px;
+    margin: 18px;
     height: 40px;
     border-radius: 5px;
     width: 1110px;
@@ -45,14 +45,14 @@ form {
     display: flex;
     width: 100%;
     justify-content: center;
+    height: 100px;
 }
 
 .card {
     width: 100%;
-    height: 60px;
-    padding-left: 18px;
-    padding-bottom: 40px;
-    /* border: none; */
+    padding-left: 15px;
+    padding-top: 1px;
+    border: none;
 }
 
 .card input {
