@@ -57,6 +57,7 @@ form {
 
 .card input {
     width: 310px;
+    min-width: 310px;
     height: 25px;
     padding-left: 10px;
     border: solid 2px #e8e8e8;
@@ -71,6 +72,7 @@ form {
     color: rgb(20, 15, 15);
     margin-top: 0;
 }
+              /*aqui viene toda la parte del medio*/
 
 .sec3 {
     display: flex;
@@ -86,4 +88,9 @@ form {
 .botones {
     background-color: ghostwhite;
 
+}
+
+img {
+    width: 30px;
+    height: 30px;
 }
