@@ -49,11 +49,14 @@ form {
 
 .card {
     width: 100%;
-    padding-left: 20px;
+    height: 60px;
+    padding-left: 18px;
+    padding-bottom: 40px;
+    /* border: none; */
 }
 
 .card input {
-    width: 300px;
+    width: 310px;
     height: 25px;
     padding-left: 10px;
     border: solid 2px #e8e8e8;
@@ -63,6 +66,10 @@ form {
 
 .card p {
     margin-bottom: 5px;
+}
+.card p:nth-child(2) {
+    color: rgb(20, 15, 15);
+    margin-top: 0;
 }
 
 .sec3 {
