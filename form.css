@@ -18,7 +18,7 @@ form {
     border-bottom: solid 2px #e8e8e8;
 }
 
-.sec1 h1 {
+h1 {
     margin-top: 2px;
     font-size: 28px;
     padding-left: 10px; /*espacio de cada lado 10px*/
@@ -26,13 +26,12 @@ form {
 
 .text {
     background-color: #f8d7da;
-    border: solid 1px rgba(192, 82, 82, 0.1);
     color: rgb(90, 4, 4);
-    margin: 18px;
-    height: 40px;
-    border-radius: 5px;
     width: 1110px;
-    justify-content: center;
+    height: 40px;
+    border: solid 1px rgba(192, 82, 82, 0.1);
+    border-radius: 5px;
+    margin: 18px;
 }
 
 .text p {
@@ -41,15 +40,13 @@ form {
     padding-left: 13px;
 }
 
-.info {
+.info, .sec3, .sep {
     display: flex;
-    width: 100%;
-    height: 100px;
 }
 
 .card {
     width: 100%;
-    padding-left: 15px;
+    padding-left: 17px;
     padding-top: 1px;
     border: none;
 }
@@ -57,7 +54,7 @@ form {
 input, select, textarea {
     border: solid 2px #e8e8e8;
     border-radius: 5px;
-    font-size: 17px;
+    font-size: 16px;
     padding-left: 10px; 
 }
 
@@ -66,36 +63,43 @@ input, select, textarea {
     height: 25px;
 }
 
-.card p {
+p {
     margin-bottom: 5px;
+    margin-top: 0;
+    font-size: 15px;
 }
 .card p:nth-child(2) {
     color: rgb(20, 15, 15);
     margin-top: 0;
 }
                 /*aqui viene toda la parte del medio*/
-
 .sec3 {
     display: flex;
 }
 
 #large {
-    width: 520px;
+    width: 512px;
+    height: 25px;
 }
 
 .text2 {
    width: 50%;
-}
-
-.sep {
-    display: flex;
-}
-.botones {
-    background-color: ghostwhite;
-
+   padding-left: 3px;
 }
 
 img {
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
+}
+
+#pay {
+    background-color: rgb(63, 61, 61);
+    height: 40px;
+    width: 230px;
+}
+
+.botones {
+    background-color: #f7f7f7;
+    height: 50px;
+    border-top: solid 2px #e8e8e8;
 }
