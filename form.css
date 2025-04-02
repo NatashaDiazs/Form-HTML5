@@ -44,7 +44,6 @@ form {
 .info {
     display: flex;
     width: 100%;
-    justify-content: center;
     height: 100px;
 }
 
@@ -55,14 +54,16 @@ form {
     border: none;
 }
 
-.card input {
-    width: 310px;
-    min-width: 310px;
-    height: 25px;
-    padding-left: 10px;
+input, select, textarea {
     border: solid 2px #e8e8e8;
     border-radius: 5px;
     font-size: 17px;
+    padding-left: 10px; 
+}
+
+.card input {
+    width: 310px;
+    height: 25px;
 }
 
 .card p {
@@ -72,13 +73,17 @@ form {
     color: rgb(20, 15, 15);
     margin-top: 0;
 }
-              /*aqui viene toda la parte del medio*/
+                /*aqui viene toda la parte del medio*/
 
 .sec3 {
     display: flex;
 }
 
-.fname {
+#large {
+    width: 520px;
+}
+
+.text2 {
    width: 50%;
 }
 
