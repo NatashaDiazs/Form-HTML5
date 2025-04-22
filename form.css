@@ -86,17 +86,33 @@ p {
    width: 50%;
 }
 
-img {
-    width: 25px;
-    height: 25px;
+.text2 fieldset:nth-of-type(3) {
+    border: none;
+    margin-left: 6px;
 }
 
 #pay {
-    background-color: rgba(66, 64, 64, 0.8);
+    background-color: rgba(122, 115, 115, 0.89);
+    text-align: center;
+    margin-top: 11px;
     height: 35px;
     width: 230px;
     border-radius: 5px;
 }
+
+img {
+    width: 22px;
+    height: 22px;
+    margin-top: 6px;
+}
+
+ #pay input {
+    transform: scale(0.8);
+    position: relative;
+    top: -3px;
+ }
+
+
 
 .botones {
     background-color: #f7f7f7;
