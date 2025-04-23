@@ -52,7 +52,6 @@ fieldset {
 }
 .card input, select{
     height: 28px;
-    margin-top: 5px;
     padding-left: 10px; 
 }
 #card-number {
@@ -77,6 +76,7 @@ input, select, textarea {
     border: solid 2px #e8e8e8;
     border-radius: 5px;
     font-size: 14px;
+    margin-top: 5px;
 }
 
             /*aqui viene toda la parte del medio*/
@@ -115,12 +115,16 @@ input, select, textarea {
     width: 240px;
     height: 35px;
 }
- #postal {
+#postal {
     width: 255px;
  }
+.text3 > fieldset:last-child {
+    padding-top: 6px;
+}
 small {
+    margin: 0 auto;
     font-size: 12px;
-    color: rgb(114, 112, 112);
+    color: rgb(70, 67, 67);
 }
 
                 /*parte final de botones*/
