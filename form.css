@@ -40,7 +40,7 @@ h1 {
     padding-left: 13px;
 }
 
-.info, .sec3, .sep {
+.info, .sec3, .postal {
     display: flex;
 }
 
@@ -73,9 +73,6 @@ p {
     margin-top: 0;
 }
                 /*aqui viene toda la parte del medio*/
-.sec3 {
-    display: flex;
-}
 
 #large {
     width: 516px;
@@ -100,7 +97,7 @@ p {
     border-radius: 5px;
 }
 
-img {
+ #pay img {
     width: 22px;
     height: 22px;
     margin-top: 6px;
@@ -112,10 +109,35 @@ img {
     top: -3px;
  }
 
+/* tercer div, parte derecha*/ 
+.postal {
+    padding-left: 5px;
+}
+
+.postal fieldset {
+    border: none;
+}
+
+.postal input {
+    height: 25px;
+    width: 247px;
+}
+
+.postal select {
+    appearance: none;
+    background: url(arrow-unsorted-svgrepo-com.svg) no-repeat right;
+    background-size: 14px;
+    width: 240px;
+    height: 31px;
+}
 
 
+
+
+/*parte final de botones*/
 .botones {
     background-color: #f7f7f7;
     height: 50px;
     border-top: solid 2px #e8e8e8;
+    text-align: right;
 }
