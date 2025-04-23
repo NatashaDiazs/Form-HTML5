@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="form.css">
 </head>
 <body>
-    <form action="" method="get">
+    <form action="https://www.google.com/?hl=es" method="get">
        <div class="Form">
             <div class="sec1">
                 <h1>Payment form example</h1>
@@ -19,15 +19,15 @@
                 <div class="info">
                     <fieldset class="card">
                         <label for="card-number">Card #</label><br>
-                        <input type="text" placeholder="xxxxxxxxxxxxxxxx" id="card-number">
+                        <input type="text" placeholder="xxxxxxxxxxxxxxxx" id="card-number" maxlength="16" required>
                     </fieldset>
                     <fieldset class="card">
                         <label for="CVC">CVC #</label><br>
-                        <input type="text" placeholder="0000" id="CVC">
+                        <input type="text" placeholder="0000" id="CVC" maxlength="4" pattern="\d+">
                     </fieldset>
                     <fieldset class="card">
                         <label for="amount">Amount</label>
-                        <p><strong>$</strong> <input type="text" placeholder="Amount" id="amount"></p>
+                        <p><strong>$</strong> <input type="text" placeholder="Amount" id="amount" required></p>
                     </fieldset>
                 </div>
             </div>
@@ -74,7 +74,7 @@
                     </div>
                     <fieldset class="card">
                         <label for="sug">Message</label><br>
-                        <textarea name="sug" id="sug" rows="5" cols="65"></textarea><br>
+                        <textarea name="sug" id="sug" rows="5" cols="65" maxlength="250" placeholder="0/250"></textarea><br>
                         <small>Add any notes here.</small>
                     </fieldset>
                 </div>

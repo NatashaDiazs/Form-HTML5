@@ -79,7 +79,7 @@ input, select, textarea {
     margin-top: 5px;
 }
 
-            /*aqui viene toda la parte del medio*/
+            /*div central, seccion izquierda*/
 
 .large {
     width: 525px;
@@ -106,7 +106,7 @@ input, select, textarea {
     top: -4px;
  }
 
-              /* tercer div, parte derecha*/ 
+              /*div central, seccion derecha*/ 
 
 #opciones {
     appearance: none;
@@ -127,7 +127,7 @@ small {
     color: rgb(70, 67, 67);
 }
 
-                /*parte final de botones*/
+                   /*parte final*/
 .botones {
     background-color: #f7f7f7;
     height: 45px;
