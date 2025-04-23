@@ -42,6 +42,9 @@ h1 {
 fieldset {
     border: none;
 }
+.info {
+    height: 75px;
+}
 .card {
     padding-left: 17px;
     margin-right: 0;
@@ -50,6 +53,7 @@ fieldset {
 .card input, select{
     height: 28px;
     margin-top: 5px;
+    padding-left: 10px; 
 }
 #card-number {
     width: 440px;
@@ -64,33 +68,21 @@ fieldset {
     color: rgb(20, 15, 15);
     margin-top: 0;
 }
-
-
-
-input, select, textarea {
-    border: solid 2px #e8e8e8;
-    border-radius: 5px;
-    font-size: 16px;
-    padding-left: 10px; 
-}
-
-
-
 label {
     margin-bottom: 5px;
     margin-top: 0;
     font-size: 15px;
 }
+input, select, textarea {
+    border: solid 2px #e8e8e8;
+    border-radius: 5px;
+    font-size: 14px;
+}
 
                 /*aqui viene toda la parte del medio*/
 
 .large {
-    width: 516px;
-    height: 25px;
-}
-
-.text2 {
-   width: 50%;
+    width: 525px;
 }
 
 .text2 fieldset:nth-of-type(3) {
