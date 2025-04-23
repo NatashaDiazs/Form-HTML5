@@ -18,28 +18,28 @@
                 </div>
                 <div class="info">
                     <fieldset class="card">
-                        <p>Card #</p>
-                        <input type="text" placeholder="xxxxxxxxxxxxxxxx">
+                        <label for="card-number">Card #</label><br>
+                        <input type="text" placeholder="xxxxxxxxxxxxxxxx" id="card-number">
                     </fieldset>
                     <fieldset class="card">
-                        <p>CVC #</p>
-                        <input type="text" placeholder="0000">
+                        <label for="CVC">CVC #</label><br>
+                        <input type="text" placeholder="0000" id="CVC">
                     </fieldset>
                     <fieldset class="card">
-                        <p>Amount</p>
-                        <p> <strong>$</strong> <input type="text" placeholder="Amount"></p>
+                        <label for="amount">Amount</label>
+                        <p><strong>$</strong> <input type="text" placeholder="Amount" id="amount"></p>
                     </fieldset>
                 </div>
             </div>
             <div class="sec3">
                  <div class="text2">
                     <fieldset class="card">
-                        <p>First Name</p>
-                        <input type="text" id="large">
+                        <label for="namef">First Name</label> <br>
+                        <input type="text" id="namef" class="large">
                     </fieldset>
                     <fieldset class="card">
-                        <p>City</p>
-                        <input type="text" id="large">
+                        <label for="city">City</label> <br>
+                        <input type="text" id="city" class="large">
                     </fieldset>
                     <fieldset>
                         <p>We accept:</p>
@@ -53,12 +53,12 @@
                 </div>
                 <div class="text3">
                     <fieldset class="card">
-                        <p>Last Name</p>
-                        <input type="text" id="large">
+                        <label for="namel">Last Name</label><br>
+                        <input type="text" id="namel" class="large">
                     </fieldset>
                     <div class="postal">
-                        <fieldset>
-                            <p>State</p>
+                        <fieldset class="card">
+                            <label for="opciones">State</label>
                             <select id="opciones" name="opciones">
                                 <option value="opcion 0">Pick a state</option>
                                 <option value="Opcion 1">California</option>
@@ -67,21 +67,21 @@
                                 <option value="Opcion 4">New Jersey</option>                           
                             </select>                              
                         </fieldset>
-                        <fieldset>
-                            <p>Postal Code</p>
-                            <input type="text">
+                        <fieldset class="card">
+                            <label for="postal">Postal Code</label>
+                            <input type="text" id="postal">
                         </fieldset>
                     </div>
-                    <fieldset>
-                        <p>Message</p>
-                        <textarea name="sug" id="" rows="6" cols="50"></textarea>
-                        <figcaption>Add any notes here</figcaption>
+                    <fieldset id="final">
+                        <label for="sug">Message</label><br>
+                        <textarea name="sug" id="sug" rows="4" cols="55"></textarea><br>
+                        <small>Add any notes here.</small>
                     </fieldset>
                 </div>
             </div>
             <div class="botones">
-                <button>Cancel</button>
-                <button>Send</button>
+                <button type="button">Cancel</button>
+                <button type="submit">Send</button>
             </div>
        </div>
     </form>

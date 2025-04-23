@@ -17,13 +17,11 @@ form {
     padding: 10px;
     border-bottom: solid 2px #e8e8e8;
 }
-
 h1 {
     margin-top: 2px;
     font-size: 28px;
-    padding-left: 10px; /*espacio de cada lado 10px*/
+    padding-left: 10px;
 }
-
 .text {
     background-color: #f8d7da;
     color: rgb(90, 4, 4);
@@ -33,23 +31,41 @@ h1 {
     border-radius: 5px;
     margin: 18px;
 }
-
 .text p {
     margin-left: 20px;
     margin: 8px;
     padding-left: 13px;
 }
-
-.info, .sec3, .postal {
+.info, .sec3, .postal, .botones {
     display: flex;
 }
-
-.card {
-    width: 100%;
-    padding-left: 17px;
-    padding-top: 1px;
+fieldset {
     border: none;
 }
+.card {
+    padding-left: 17px;
+    margin-right: 0;
+    padding-top: 1px;
+}
+.card input, select{
+    height: 28px;
+    margin-top: 5px;
+}
+#card-number {
+    width: 440px;
+}
+#CVC {
+    width: 200px;
+}
+#amount {
+    width: 347px;
+}
+.card p:nth-child(2) {
+    color: rgb(20, 15, 15);
+    margin-top: 0;
+}
+
+
 
 input, select, textarea {
     border: solid 2px #e8e8e8;
@@ -58,23 +74,17 @@ input, select, textarea {
     padding-left: 10px; 
 }
 
-.card input {
-    width: 310px;
-    height: 25px;
-}
 
-p {
+
+label {
     margin-bottom: 5px;
     margin-top: 0;
     font-size: 15px;
 }
-.card p:nth-child(2) {
-    color: rgb(20, 15, 15);
-    margin-top: 0;
-}
+
                 /*aqui viene toda la parte del medio*/
 
-#large {
+.large {
     width: 516px;
     height: 25px;
 }
@@ -84,7 +94,6 @@ p {
 }
 
 .text2 fieldset:nth-of-type(3) {
-    border: none;
     margin-left: 6px;
 }
 
@@ -110,19 +119,10 @@ p {
  }
 
 /* tercer div, parte derecha*/ 
-.postal {
-    padding-left: 5px;
+#final {
+    padding-left: 20px;
     margin: 0;
-}
-
-.postal fieldset {
-    border: none;
-}
-
-.postal input {
-    height: 25px;
-    width: 247px;
-}
+} 
 
 #opciones {
     appearance: none;
@@ -132,8 +132,10 @@ p {
     height: 31px;
 }
 
-
-
+small {
+    font-size: 12px;
+    color: rgb(114, 112, 112);
+}
 /*parte final de botones*/
 .botones {
     background-color: #f7f7f7;
