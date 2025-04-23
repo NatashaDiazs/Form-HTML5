@@ -127,7 +127,7 @@ small {
     color: rgb(70, 67, 67);
 }
 
-                   /*parte final*/
+                /*parte final*/
 .botones {
     background-color: #f7f7f7;
     height: 45px;
@@ -137,7 +137,6 @@ small {
     padding-right: 20px;
     gap: 6px;
 }
-
 button {
     height: 35px;
     width: 60px;
@@ -146,7 +145,6 @@ button {
     color: white;
     background-color: #6c757d;
 }
-
 .botones button:nth-of-type(even) {
     background-color: #017bff;
     width: 55px;
