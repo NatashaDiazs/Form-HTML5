@@ -112,6 +112,7 @@ p {
 /* tercer div, parte derecha*/ 
 .postal {
     padding-left: 5px;
+    margin: 0;
 }
 
 .postal fieldset {
@@ -123,14 +124,13 @@ p {
     width: 247px;
 }
 
-.postal select {
+#opciones {
     appearance: none;
     background: url(arrow-unsorted-svgrepo-com.svg) no-repeat right;
-    background-size: 14px;
+    background-size: 13px;
     width: 240px;
     height: 31px;
 }
-
 
 
 
